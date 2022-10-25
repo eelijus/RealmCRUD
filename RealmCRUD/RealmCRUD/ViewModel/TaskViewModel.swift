@@ -12,8 +12,12 @@ import RealmSwift
 class TaskViewModel: ObservableObject {
     @Published var taskTitle = ""
     @Published var taskDescription = ""
+    @Published var taskDate: Date = Date()
+    @Published var descriptionVisibility: Bool = true
+    @Published var isCompleted: Bool = false
+   
     @Published var openNewPage = false
-    
+
     //Fetched Data
     @Published var tasks: [Task] = []
     //Data Updation

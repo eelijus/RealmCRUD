@@ -17,6 +17,7 @@
 		09B59E2729077EC200DF574D /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B59E2629077EC200DF574D /* Task.swift */; };
 		09B59E2A29077F1600DF574D /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 09B59E2929077F1600DF574D /* Realm */; };
 		09B59E2C29077F1600DF574D /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 09B59E2B29077F1600DF574D /* RealmSwift */; };
+		09B59E2E29078B9000DF574D /* TaskCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B59E2D29078B9000DF574D /* TaskCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		09B59E2229077EAA00DF574D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		09B59E2429077EB500DF574D /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 		09B59E2629077EC200DF574D /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		09B59E2D29078B9000DF574D /* TaskCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				09B59E2229077EAA00DF574D /* Home.swift */,
+				09B59E2D29078B9000DF574D /* TaskCardView.swift */,
 				09B59E2429077EB500DF574D /* ModalView.swift */,
 			);
 			path = View;
@@ -190,6 +193,7 @@
 				09B59E0E29077E3100DF574D /* RealmCRUDApp.swift in Sources */,
 				09B59E2729077EC200DF574D /* Task.swift in Sources */,
 				09B59E2529077EB500DF574D /* ModalView.swift in Sources */,
+				09B59E2E29078B9000DF574D /* TaskCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

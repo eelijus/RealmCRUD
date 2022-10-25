@@ -16,16 +16,15 @@ struct Home: View {
             ScrollView {
                 VStack(spacing: 15) {
                     ForEach(taskViewModel.tasks) { task in
-                        VStack(alignment: .leading, spacing: 10,content: {
-                            Text(task.taskTitle)
-                            Text(task.taskDescription)
-                                .font(.caption)
-                                .foregroundColor(.gray)
-                        })
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                        .padding(10)
-                        .background(Color.gray.opacity(0.15))
-                        .cornerRadius(10)
+//                        VStack(alignment: .leading, spacing: 10,content: {
+//                            Text(task.taskTitle)
+//                            Text(task.taskDescription)
+//                                .font(.caption)
+//                                .foregroundColor(.gray)
+//                        })
+
+
+                        TaskCardView(task: task)
                         .contentShape(RoundedRectangle(cornerRadius: 10))
                         .contextMenu(menuItems: {
                             Button(action: {taskViewModel.deleteData(object: task)}, label: {
